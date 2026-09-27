@@ -1,0 +1,136 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "version",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "embedded-original",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "embedded-provenance",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "recent-bundle-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 34,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "recent-bundle-unmodified",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "recent-provenance-exact",
+      "passed": true,
+      "observed": "アプリ版\n2026.09.27-rc.8\n現在のデータ\nlatest-24h-bundle.json / 34 件 / 月別表示は 2026-09〜2026-09 の 1 か月\nデータの区分\nUSGS公式APIからこの画面で取得して保持しているbundle（原本を再生成しない）\n通信について\nUSGS公式APIへ通信するのは「取得して切替」「再試行」を押した時だけです。保存済みデータの表示・読込（内蔵版・保存JSON・GeoJSON）は外部へ通信しません。\n取得日時 (UTC)\n2026-09-26T19:54:11.038Z\n対象条件\n全世界 / type=earthquake / マグニチュード 4.5 以上\n対象期間 (UTC)\n2026-09-25T19:54:10.076Z 以上〜2026-09-26T19:54:10.076Z 未満（開始を含み、終了を含まない）\n識別ハッシュ (SHA-256)\n7a93719d89832400bffe489fab76465afa67799ccbf8d817b6dfae85ae53fb5b\n背景地図\nNASA Earth Observatory Blue Marble Next Generation 2004-07（Plate Carree / equal longitude-latitude spacing, WGS84。5400 by 2700; 8 km per pixel approximately at equator; shaded relief image, not an elevation measurement）\n海底地形\nGEBCO に基づく陰影（NASA画像に含まれる）\n地理検索\nNatural Earth 1:110m admin-0 から作った国・地域の概略矩形（住所・市町村の検索はしません。国境の内側判定もしません）\nマグニチュード\nUSGSのマグニチュード（震度ではありません。このアプリは震度・予測を扱いません）\nライセンス\nUSGS地震情報・Natural Earth: パブリックドメイン / NASA Earth Observatory: 出典表示のうえ利用可 / Three.js: MIT License（バンドルに同梱）\n取得記録の状態\nこの画面で取得して保持しているbundle（原本を再生成しない）\nbundle サイズ\n34204 bytes\n原本 1/1\nhttps://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-09-25T19%3A54%3A10.076Z&endtime=2026-09-26T19%3A54%3A10.075Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000 / 取得 2026-09-26T19:54:10.859Z / sha256 e597ad3af7f95b73e07e5e589be22b2b12d213db4df381f3408bcdc6f21eb096 / 24518 bytes"
+    },
+    {
+      "name": "network-explanation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "timeline-accessible-date",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "restart-accessible",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "geojson-provenance-only-file",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "geojson-not-worldwide-guarantee",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "final-acquisition-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 61,
+        "expected_page_ids": [
+          "us6000mg68",
+          "us6000mg5q",
+          "us6000mg5t",
+          "us7000m3py",
+          "us6000mg58",
+          "us6000mg56",
+          "us6000mg4v",
+          "us6000mg1x",
+          "us6000mg1k",
+          "us6000mg1b",
+          "us6000mg0x",
+          "us6000mg0v",
+          "us7000m3pi",
+          "us6000mg0c",
+          "us7000m3pd",
+          "us7000m3pb",
+          "us7000m3pa",
+          "us6000mfxd",
+          "us6000mfx9",
+          "us6000mgxs"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "final-one-operation",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "final-fetched-provenance",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "narrow-panel",
+      "passed": true,
+      "observed": null
+    }
+  ],
+  "page_errors": [],
+  "disallowed_network": [],
+  "html_sha256": "fee98347e4c04bc3d01c1d2da604feddbcced8193c2621451942d0ace3586bc0",
+  "browser": "153.0.8010.47"
+}

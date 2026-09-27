@@ -1,0 +1,397 @@
+{
+  "automated_status": "pass",
+  "visual_review": "pending",
+  "browser_status": "captured",
+  "checks": [
+    {
+      "case": "00-initial",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-all",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-shallow",
+      "status": "pass",
+      "expected_count": 6943,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-deep",
+      "status": "pass",
+      "expected_count": 286,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-large",
+      "status": "pass",
+      "expected_count": 16,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-combined",
+      "status": "pass",
+      "expected_count": 240,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-empty",
+      "status": "pass",
+      "expected_count": 0,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "surface-boundary",
+      "status": "pass",
+      "expected_count": 2199,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-all",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-shallow",
+      "status": "pass",
+      "expected_count": 6943,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-deep",
+      "status": "pass",
+      "expected_count": 286,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-large",
+      "status": "pass",
+      "expected_count": 16,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-combined",
+      "status": "pass",
+      "expected_count": 240,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-empty",
+      "status": "pass",
+      "expected_count": 0,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "hypocenter-boundary",
+      "status": "pass",
+      "expected_count": 2199,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "depth-5x-hidden-surface",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "depth-1x-hidden-surface",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "selected-shallow",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "selected-deep",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "selected-large",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    },
+    {
+      "case": "offline-reload",
+      "status": "pass",
+      "expected_count": 8556,
+      "error_count": 0,
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Canvas values require source review to confirm audit adapter reads actual draw buffers.",
+    "Screenshots require human review; numeric pass is not visual approval."
+  ],
+  "interactions": [
+    {
+      "name": "initial_scale_one",
+      "passed": true
+    },
+    {
+      "name": "rotate",
+      "passed": true
+    },
+    {
+      "name": "zoom_in",
+      "passed": true
+    },
+    {
+      "name": "zoom_out",
+      "passed": true
+    },
+    {
+      "name": "scale5",
+      "passed": true
+    },
+    {
+      "name": "surface_hidden",
+      "passed": true
+    },
+    {
+      "name": "scale_reset",
+      "passed": true
+    },
+    {
+      "name": "point_click_shallow",
+      "passed": true,
+      "sample": {
+        "category": "shallow",
+        "id": "us7000qqyn",
+        "time_ms": 1756181225732,
+        "longitude": 11.6084,
+        "latitude": 38.2565,
+        "depth_km": 1.181,
+        "magnitude": 4.8,
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qqyn"
+      },
+      "dom": {
+        "id": "us7000qqyn",
+        "time": "2025-08-26T04:07:05.732Z",
+        "depth": "1.181",
+        "mag": "4.8",
+        "source": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qqyn"
+      },
+      "click_position": {
+        "x": 800.0000000000002,
+        "y": 499.99999999999994
+      },
+      "observed_events": [
+        {
+          "type": "pointerdown",
+          "phase": "capture",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "-"
+        },
+        {
+          "type": "pointerdown",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "-"
+        },
+        {
+          "type": "pointerup",
+          "phase": "capture",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "-"
+        },
+        {
+          "type": "pointerup",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "us7000qqyn"
+        },
+        {
+          "type": "click",
+          "phase": "capture",
+          "x": 800,
+          "y": 499,
+          "selected": "us7000qqyn"
+        },
+        {
+          "type": "click",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499,
+          "selected": "us7000qqyn"
+        }
+      ]
+    },
+    {
+      "name": "point_click_deep",
+      "passed": true,
+      "sample": {
+        "category": "deep",
+        "id": "us6000rk66",
+        "time_ms": 1761757654157,
+        "longitude": -179.0467,
+        "latitude": -19.0745,
+        "depth_km": 669.556,
+        "magnitude": 4.8,
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk66"
+      },
+      "dom": {
+        "id": "us6000rk66",
+        "time": "2025-10-29T17:07:34.157Z",
+        "depth": "669.556",
+        "mag": "4.8",
+        "source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk66"
+      },
+      "click_position": {
+        "x": 800,
+        "y": 500
+      },
+      "observed_events": [
+        {
+          "type": "pointerdown",
+          "phase": "capture",
+          "x": 800,
+          "y": 500,
+          "selected": "us7000qqyn"
+        },
+        {
+          "type": "pointerdown",
+          "phase": "bubble",
+          "x": 800,
+          "y": 500,
+          "selected": "us7000qqyn"
+        },
+        {
+          "type": "pointerup",
+          "phase": "capture",
+          "x": 800,
+          "y": 500,
+          "selected": "us7000qqyn"
+        },
+        {
+          "type": "pointerup",
+          "phase": "bubble",
+          "x": 800,
+          "y": 500,
+          "selected": "us6000rk66"
+        },
+        {
+          "type": "click",
+          "phase": "capture",
+          "x": 800,
+          "y": 500,
+          "selected": "us6000rk66"
+        },
+        {
+          "type": "click",
+          "phase": "bubble",
+          "x": 800,
+          "y": 500,
+          "selected": "us6000rk66"
+        }
+      ]
+    },
+    {
+      "name": "point_click_large",
+      "passed": true,
+      "sample": {
+        "category": "large",
+        "id": "us6000qw60",
+        "time_ms": 1753831492483,
+        "longitude": 160.2395,
+        "latitude": 52.4948,
+        "depth_km": 35,
+        "magnitude": 8.8,
+        "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60"
+      },
+      "dom": {
+        "id": "us6000qw60",
+        "time": "2025-07-29T23:24:52.483Z",
+        "depth": "35",
+        "mag": "8.8",
+        "source": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60"
+      },
+      "click_position": {
+        "x": 800.0000000000006,
+        "y": 499.9999999999999
+      },
+      "observed_events": [
+        {
+          "type": "pointerdown",
+          "phase": "capture",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "us6000rk66"
+        },
+        {
+          "type": "pointerdown",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "us6000rk66"
+        },
+        {
+          "type": "pointerup",
+          "phase": "capture",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "us6000rk66"
+        },
+        {
+          "type": "pointerup",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499.989990234375,
+          "selected": "us6000qw60"
+        },
+        {
+          "type": "click",
+          "phase": "capture",
+          "x": 800,
+          "y": 499,
+          "selected": "us6000qw60"
+        },
+        {
+          "type": "click",
+          "phase": "bubble",
+          "x": 800,
+          "y": 499,
+          "selected": "us6000qw60"
+        }
+      ]
+    }
+  ],
+  "blocked_network_requests": [],
+  "console_errors": []
+}

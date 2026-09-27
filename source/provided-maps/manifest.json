@@ -1,0 +1,95 @@
+{
+  "acquired_at": "2026-09-26T12:00:51.218250+00:00",
+  "status": "available",
+  "purpose": "Static land and bathymetry background for USGS globe; no earthquake data change",
+  "image_epoch": "2004-07",
+  "projection": "Plate Carree / equal longitude-latitude spacing, WGS84",
+  "extent": {
+    "west": -180,
+    "east": 180,
+    "north": 90,
+    "south": -90
+  },
+  "credit": "NASA Earth Observatory; bathymetry source GEBCO",
+  "resolution_note": "5400 by 2700; 8 km per pixel approximately at equator; shaded relief image, not an elevation measurement",
+  "records": [
+    {
+      "file": "land-topography.jpg",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography/july/world.topo.200407.3x5400x2700.jpg",
+      "acquired_at": "2026-09-26T12:00:51.218743+00:00",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1629528,
+      "sha256": "85a24885616097b5e06532b7d8e30fa5d749a782e70ea55971dd8539a0899206",
+      "elapsed_seconds": 1.119025635998696,
+      "dimensions": [
+        5400,
+        2700
+      ]
+    },
+    {
+      "file": "land-bathymetry.jpg",
+      "url": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-topography-bathymetry/july/world.topo.bathy.200407.3x5400x2700.jpg",
+      "acquired_at": "2026-09-26T12:00:52.395575+00:00",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 2308798,
+      "sha256": "4f4240673a3a1b173d61b92ca4b07bac5fd17059ea5f725ba6da5a9c5386b7ba",
+      "elapsed_seconds": 0.3300645970739424,
+      "dimensions": [
+        5400,
+        2700
+      ]
+    },
+    {
+      "file": "source-overview.html",
+      "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/",
+      "acquired_at": "2026-09-26T12:00:52.732386+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 360547,
+      "sha256": "1e53be90963413aefa28bd27d07d7dd4d16561b0f926a91fd75f81b2ccaeda08",
+      "elapsed_seconds": 1.1253426808398217
+    },
+    {
+      "file": "source-land.html",
+      "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography/",
+      "acquired_at": "2026-09-26T12:00:53.859364+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 387324,
+      "sha256": "d785066e38004e314451d47934d834fec198131ceae18a6cf5fb6b9b82833f6f",
+      "elapsed_seconds": 0.8856130850035697
+    },
+    {
+      "file": "source-bathymetry.html",
+      "url": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/",
+      "acquired_at": "2026-09-26T12:00:54.746429+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 400513,
+      "sha256": "71601314feb5cc39d672ba2d11de84086c049c2c98caed16a1d0c5672f379c5f",
+      "elapsed_seconds": 0.08918306813575327
+    },
+    {
+      "file": "source-use-policy.html",
+      "url": "https://science.nasa.gov/earth/faq/",
+      "acquired_at": "2026-09-26T12:00:54.837111+00:00",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 237105,
+      "sha256": "62b451219142a47b93324adb3f46ae078ba7912496324bb0c87b22a94572ce6d",
+      "elapsed_seconds": 0.6820119600743055
+    },
+    {
+      "file": "source-manual.pdf",
+      "url": "https://eoimages.gsfc.nasa.gov/images/imagerecords/74000/74393/readme.pdf",
+      "acquired_at": "2026-09-26T12:00:55.520970+00:00",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1059041,
+      "sha256": "9966b43543c2bcdff77e36eb262eee916787fcf507a956e3db5af8743e623d7c",
+      "elapsed_seconds": 2.0911541539244354
+    }
+  ]
+}

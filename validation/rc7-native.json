@@ -1,0 +1,774 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "embedded-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 8556,
+        "error_count": 0,
+        "errors": []
+      }
+    },
+    {
+      "name": "historical-acquired",
+      "passed": true,
+      "observed": {
+        "sourceKind": "usgs-acquisition",
+        "label": "USGS取得 2024-02-28〜2024-03-02",
+        "busy": false,
+        "error": null,
+        "progress": null,
+        "hasBundle": true,
+        "dirty": true,
+        "startMs": 1709078400000,
+        "endMs": 1709337600000,
+        "days": 3,
+        "monthCount": 2,
+        "months": [
+          "2024-02",
+          "2024-03"
+        ],
+        "recordCount": 61,
+        "bundleSha256": "89998cd389e6c87e611596fbebd77642a4ac69034b6d73c554029b2bacf77f10"
+      }
+    },
+    {
+      "name": "one-operation-three-requests",
+      "passed": true,
+      "observed": [
+        "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+        "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+        "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake"
+      ]
+    },
+    {
+      "name": "historical-original-values-filter-xyz",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 61,
+        "expected_page_ids": [
+          "us6000mg68",
+          "us6000mg5q",
+          "us6000mg5t",
+          "us7000m3py",
+          "us6000mg58",
+          "us6000mg56",
+          "us6000mg4v",
+          "us6000mg1x",
+          "us6000mg1k",
+          "us6000mg1b",
+          "us6000mg0x",
+          "us6000mg0v",
+          "us7000m3pi",
+          "us6000mg0c",
+          "us7000m3pd",
+          "us7000m3pb",
+          "us7000m3pa",
+          "us6000mfxd",
+          "us6000mfx9",
+          "us6000mgxs"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "historical-period-instant",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "historical-count",
+      "passed": true,
+      "observed": 61
+    },
+    {
+      "name": "save-exact-bundle",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "leap-months",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "february-filter",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 44,
+        "expected_page_ids": [
+          "us6000mfxd",
+          "us6000mfx9",
+          "us6000mgxs",
+          "us6000mfw5",
+          "us6000mfw3",
+          "us6000mfuz",
+          "us6000mftw",
+          "us6000mgxb",
+          "us6000mftq",
+          "us6000mfta",
+          "us6000mft2",
+          "us6000mft0",
+          "us6000mfsp",
+          "us6000mfsl",
+          "us6000mgx0",
+          "us6000mfs3",
+          "us6000mfrt",
+          "us6000mfrp",
+          "us6000mfqy",
+          "us6000mgwt"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "leap-month-settings",
+      "passed": true,
+      "observed": "表示設定を復元しました（再生は停止状態、選択はJSONどおり）。"
+    },
+    {
+      "name": "csv-february",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 44,
+        "parsed_count": 44,
+        "errors": []
+      }
+    },
+    {
+      "name": "restore-embedded",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "file-import-same-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 61,
+        "expected_page_ids": [
+          "us6000mg68",
+          "us6000mg5q",
+          "us6000mg5t",
+          "us7000m3py",
+          "us6000mg58",
+          "us6000mg56",
+          "us6000mg4v",
+          "us6000mg1x",
+          "us6000mg1k",
+          "us6000mg1b",
+          "us6000mg0x",
+          "us6000mg0v",
+          "us7000m3pi",
+          "us6000mg0c",
+          "us7000m3pd",
+          "us7000m3pb",
+          "us7000m3pa",
+          "us6000mfxd",
+          "us6000mfx9",
+          "us6000mgxs"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "file-import-no-network",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-24h-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 34,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-24h-exact-window",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-24h-single-acquisition",
+      "passed": true,
+      "observed": 3
+    },
+    {
+      "name": "latest-24h-save-roundtrip",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-24h-month-2026-09",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 34,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-24h-settings",
+      "passed": true,
+      "observed": "表示設定を復元しました（再生は停止状態、選択はJSONどおり）。"
+    },
+    {
+      "name": "latest-7d-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 124,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-7d-exact-window",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-7d-single-acquisition",
+      "passed": true,
+      "observed": 3
+    },
+    {
+      "name": "latest-7d-save-roundtrip",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-7d-month-2026-09",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 124,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-7d-settings",
+      "passed": true,
+      "observed": "表示設定を復元しました（再生は停止状態、選択はJSONどおり）。"
+    },
+    {
+      "name": "latest-30d-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 512,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-30d-exact-window",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-30d-single-acquisition",
+      "passed": true,
+      "observed": 3
+    },
+    {
+      "name": "latest-30d-save-roundtrip",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "latest-30d-month-2026-08",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 75,
+        "expected_page_ids": [
+          "us7000td7p",
+          "us7000td6k",
+          "us7000td5l",
+          "us7000td3y",
+          "us7000td3c",
+          "us7000texc",
+          "us7000td2z",
+          "us7000td2f",
+          "us7000td2c",
+          "us7000td1g",
+          "us7000tec5",
+          "us7000td0v",
+          "us7000tdxc",
+          "us7000tczy",
+          "us7000tczt",
+          "us7000tczi",
+          "us7000tcyr",
+          "us7000tcy0",
+          "us7000tcxn",
+          "us7000tcxi"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-30d-month-2026-09",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 437,
+        "expected_page_ids": [
+          "us6000txuj",
+          "us6000txuf",
+          "us6000txuc",
+          "us6000txtz",
+          "us6000txty",
+          "us6000txtn",
+          "us6000txtc",
+          "us6000txt9",
+          "us6000txt8",
+          "us6000txt0",
+          "us6000txsz",
+          "us6000txsy",
+          "us6000txsh",
+          "us6000txse",
+          "us6000txs3",
+          "us6000txs2",
+          "us6000txs6",
+          "us6000txrz",
+          "us6000txrs",
+          "us6000txrq"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "latest-30d-settings",
+      "passed": true,
+      "observed": "表示設定を復元しました（再生は停止状態、選択はJSONどおり）。"
+    },
+    {
+      "name": "zero-real-acquisition",
+      "passed": true,
+      "observed": {
+        "sourceKind": "usgs-acquisition",
+        "label": "USGS取得 2024-02-28〜2024-03-02",
+        "busy": false,
+        "error": null,
+        "progress": null,
+        "hasBundle": true,
+        "dirty": false,
+        "startMs": 1709078400000,
+        "endMs": 1709337600000,
+        "days": 3,
+        "monthCount": 2,
+        "months": [
+          "2024-02",
+          "2024-03"
+        ],
+        "recordCount": 0,
+        "bundleSha256": "f8953bafc3d36af2f9b554f44e4b18da50111d4bb07eccb0cd11049e4e597927"
+      }
+    },
+    {
+      "name": "zero-original",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "reject-hash",
+      "passed": true,
+      "observed": "読み込めません（現在のデータは変更していません）: 原本bundleの検証に失敗しました: 1番目のrequestのSHA-256が一致しません（改変された可能性があります）。"
+    },
+    {
+      "name": "reject-coverage",
+      "passed": true,
+      "observed": "読み込めません（現在のデータは変更していません）: 原本bundleの検証に失敗しました: 0番目のpartitionが前の区間と連続していません（重複または欠落）。"
+    },
+    {
+      "name": "reject-url-extra",
+      "passed": true,
+      "observed": "読み込めません（現在のデータは変更していません）: 原本bundleの検証に失敗しました: 1番目のrequestに許可されていないパラメータ（minlatitude）があります。"
+    },
+    {
+      "name": "network-failure-keeps-data",
+      "passed": true,
+      "observed": "取得に失敗しました（現在のデータは変更していません）: Failed to fetch"
+    },
+    {
+      "name": "cancel-keeps-data",
+      "passed": true,
+      "observed": "取得を中止しました。現在のデータは変更していません。"
+    },
+    {
+      "name": "raw-geojson-real-61",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "raw-geojson-labelled",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "raw-geojson-byte-identical",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "narrow-data-no-overflow",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "data-close",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "data-escape-focus",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "crossyear-original",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 43,
+        "expected_page_ids": [
+          "us6000pjrv",
+          "us6000pgy5",
+          "us6000pjry",
+          "us6000pgx5",
+          "us6000pjrn",
+          "us6000pgx1",
+          "us6000pgw3",
+          "us6000pgw0",
+          "us6000pjrj",
+          "us6000pgvu",
+          "us6000pgv4",
+          "us6000pjrm",
+          "us6000pgus",
+          "us6000pgup",
+          "us6000pgub",
+          "us6000pgu4",
+          "us6000pgu0",
+          "us6000pgtu",
+          "us6000pgtj",
+          "us6000pgtd"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "crossyear-month-2024-12",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 12,
+        "expected_page_ids": [
+          "us6000pgri",
+          "us6000pgr8",
+          "us6000pgqb",
+          "us6000pgq4",
+          "us6000pgpw",
+          "us6000pgpd",
+          "us6000pgn9",
+          "us6000pgmd",
+          "us6000pgm5",
+          "us6000pgll",
+          "us6000pgl3",
+          "us6000pgku"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "crossyear-month-2025-01",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 31,
+        "expected_page_ids": [
+          "us6000pjrv",
+          "us6000pgy5",
+          "us6000pjry",
+          "us6000pgx5",
+          "us6000pjrn",
+          "us6000pgx1",
+          "us6000pgw3",
+          "us6000pgw0",
+          "us6000pjrj",
+          "us6000pgvu",
+          "us6000pgv4",
+          "us6000pjrm",
+          "us6000pgus",
+          "us6000pgup",
+          "us6000pgub",
+          "us6000pgu4",
+          "us6000pgu0",
+          "us6000pgtu",
+          "us6000pgtj",
+          "us6000pgtd"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "crossyear-timeline-first",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 12,
+        "expected_page_ids": [
+          "us6000pgri",
+          "us6000pgr8",
+          "us6000pgqb",
+          "us6000pgq4",
+          "us6000pgpw",
+          "us6000pgpd",
+          "us6000pgn9",
+          "us6000pgmd",
+          "us6000pgm5",
+          "us6000pgll",
+          "us6000pgl3",
+          "us6000pgku"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "crossyear-timeline-last",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 43,
+        "expected_page_ids": [
+          "us6000pjrv",
+          "us6000pgy5",
+          "us6000pjry",
+          "us6000pgx5",
+          "us6000pjrn",
+          "us6000pgx1",
+          "us6000pgw3",
+          "us6000pgw0",
+          "us6000pjrj",
+          "us6000pgvu",
+          "us6000pgv4",
+          "us6000pjrm",
+          "us6000pgus",
+          "us6000pgup",
+          "us6000pgub",
+          "us6000pgu4",
+          "us6000pgu0",
+          "us6000pgtu",
+          "us6000pgtj",
+          "us6000pgtd"
+        ],
+        "errors": []
+      }
+    },
+    {
+      "name": "final-default-map-backside",
+      "passed": true,
+      "observed": null
+    },
+    {
+      "name": "final-red-marker-pixels",
+      "passed": true,
+      "observed": 89
+    },
+    {
+      "name": "final-selected-source-fields-recheck",
+      "passed": true,
+      "observed": {
+        "status": "pass",
+        "expected_count": 8556,
+        "expected_page_ids": [
+          "us6000qw60",
+          "us7000qx2g",
+          "us7000pn9s",
+          "us6000rgf4",
+          "us6000rtdt",
+          "us7000pcdl",
+          "us6000r2xq",
+          "us6000rfwz",
+          "us7000pwkn",
+          "us7000qdyl",
+          "us7000qvw5",
+          "us7000qd1y",
+          "us6000pi9w",
+          "us6000qvsf",
+          "us6000rsy1",
+          "us7000pntq",
+          "us6000q3nw",
+          "us6000q41n",
+          "us6000qw6q",
+          "us6000rdrz"
+        ],
+        "errors": []
+      }
+    }
+  ],
+  "page_errors": [],
+  "disallowed_network": [],
+  "usgs_requests": [
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A39%3A30.299Z&endtime=2026-09-26T19%3A39%3A30.298Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A39%3A30.309Z&endtime=2026-09-26T19%3A39%3A30.308Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-09-25T19%3A39%3A30.309Z&endtime=2026-09-26T19%3A39%3A30.308Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-09-25T19%3A39%3A30.299Z&endtime=2026-09-26T19%3A39%3A30.298Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A39%3A30.299Z&endtime=2026-09-26T19%3A39%3A30.298Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A39%3A30.309Z&endtime=2026-09-26T19%3A39%3A30.308Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A54%3A10.076Z&endtime=2026-09-26T19%3A54%3A10.075Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-09-25T19%3A54%3A10.076Z&endtime=2026-09-26T19%3A54%3A10.075Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-25T19%3A54%3A10.076Z&endtime=2026-09-26T19%3A54%3A10.075Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-19T19%3A54%3A17.357Z&endtime=2026-09-26T19%3A54%3A17.356Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-09-19T19%3A54%3A17.357Z&endtime=2026-09-26T19%3A54%3A17.356Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-09-19T19%3A54%3A17.357Z&endtime=2026-09-26T19%3A54%3A17.356Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-08-27T19%3A54%3A26.265Z&endtime=2026-09-26T19%3A54%3A26.264Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2026-08-27T19%3A54%3A26.265Z&endtime=2026-09-26T19%3A54%3A26.264Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2026-08-27T19%3A54%3A26.265Z&endtime=2026-09-26T19%3A54%3A26.264Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=10&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=10&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-02-28T00%3A00%3A00.000Z&endtime=2024-03-01T23%3A59%3A59.999Z&minmagnitude=10&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-12-31T00%3A00%3A00.000Z&endtime=2025-01-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake",
+    "https://earthquake.usgs.gov/fdsnws/event/1/query?starttime=2024-12-31T00%3A00%3A00.000Z&endtime=2025-01-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake&format=geojson&orderby=time-asc&limit=20000",
+    "https://earthquake.usgs.gov/fdsnws/event/1/count?starttime=2024-12-31T00%3A00%3A00.000Z&endtime=2025-01-01T23%3A59%3A59.999Z&minmagnitude=4.5&eventtype=earthquake"
+  ],
+  "html_sha256": "99945ba9c2e43d7cb77d08a0ab74cb6393c78f2eded8942eab9d6cf3c67d10a8",
+  "browser": "153.0.8010.47",
+  "real_network_failure_injected": true,
+  "operator_correction": "Initial selected-record assertion compared the full app dictionary, which also includes the original place string, against an oracle dictionary without place. Corrected to compare all seven source fields and independently verify place/list. No app change. Initial failure report retained."
+}

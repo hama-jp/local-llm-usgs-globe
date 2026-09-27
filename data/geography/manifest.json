@@ -1,0 +1,35 @@
+{
+  "source": "Natural Earth 1:110m Admin 0 countries; source-owned GeoJSON repository",
+  "license": "public domain; see terms.html",
+  "purpose": "Local country-name suggestions and approximate geographic extents; not an earthquake dataset and not a sovereign-boundary claim",
+  "features": 177,
+  "records": [
+    {
+      "file": "countries.geojson",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "response_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "acquired_at": "2026-09-26T12:57:42.553170+00:00",
+      "bytes": 838726,
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "file": "terms.html",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "response_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "acquired_at": "2026-09-26T12:57:44.822766+00:00",
+      "bytes": 38013,
+      "sha256": "b71033892660fa7df17fb64abb8889430cd803048f16a69a8dd0524505d23d1f",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "file": "source.html",
+      "url": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+      "response_url": "https://www.naturalearthdata.com/downloads/110m-cultural-vectors/110m-admin-0-countries/",
+      "acquired_at": "2026-09-26T12:57:46.697504+00:00",
+      "bytes": 58310,
+      "sha256": "d1ab447a1cd7ee32f706792bc52821bb1a7231f26a28d9de8a66ae5a7b88e381",
+      "content_type": "text/html; charset=UTF-8"
+    }
+  ]
+}

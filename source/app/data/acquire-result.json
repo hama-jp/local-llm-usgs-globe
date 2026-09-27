@@ -1,0 +1,14 @@
+{
+  "at": "2026-09-26T09:42:21.746347+00:00",
+  "request_number": 1,
+  "status": "complete",
+  "source": "USGS",
+  "mode": "fresh_download",
+  "manifest": "/data/snapshot/manifest.json",
+  "manifest_sha256": "b6a566fbfed709626af8c0d19b210375f92bd5907af414a352b775cc30d9eb0c",
+  "acquired_at": "2026-09-26T09:42:21.744247+00:00",
+  "raw_files": [
+    "/data/snapshot/004-query.geojson"
+  ],
+  "instruction": "Read original GeoJSON yourself. Do not invent missing values."
+}

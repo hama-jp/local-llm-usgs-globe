@@ -1,0 +1,11 @@
+{
+  "name": "esbuild",
+  "version": "0.28.1",
+  "source": "[local build tool path omitted]",
+  "source_package": "@esbuild/linux-x64",
+  "license": "MIT",
+  "upstream": "https://github.com/evanw/esbuild",
+  "sha256": "0c6588b092a2c291a72bab90659f3c9e0e25e0fe59c9ac12b4dae4d945e5548c",
+  "provided_by": "Codex infrastructure only",
+  "provided_at": "2026-09-26T11:36:49.871585+00:00"
+}

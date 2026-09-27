@@ -1,0 +1,43 @@
+{
+  "manifest_sha256": "b6a566fbfed709626af8c0d19b210375f92bd5907af414a352b775cc30d9eb0c",
+  "acquired_at": "2026-09-26T09:42:21.744247+00:00",
+  "raw_count": 8556,
+  "excluded": [],
+  "unplottable_ids": [],
+  "samples": [
+    {
+      "category": "shallow",
+      "id": "us7000qqyn",
+      "time_ms": 1756181225732,
+      "longitude": 11.6084,
+      "latitude": 38.2565,
+      "depth_km": 1.181,
+      "magnitude": 4.8,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qqyn"
+    },
+    {
+      "category": "deep",
+      "id": "us6000rk66",
+      "time_ms": 1761757654157,
+      "longitude": -179.0467,
+      "latitude": -19.0745,
+      "depth_km": 669.556,
+      "magnitude": 4.8,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rk66"
+    },
+    {
+      "category": "large",
+      "id": "us6000qw60",
+      "time_ms": 1753831492483,
+      "longitude": 160.2395,
+      "latitude": 52.4948,
+      "depth_km": 35,
+      "magnitude": 8.8,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60"
+    }
+  ],
+  "target_count": 8556,
+  "drawable_count": 8556,
+  "app_validation": "not_run",
+  "note": "Source integrity/count audit only; no claim about an app"
+}

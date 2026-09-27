@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "app_sha256": "fee98347e4c04bc3d01c1d2da604feddbcced8193c2621451942d0ace3586bc0",
+  "trusted_acquisition_sha256": "a65b6026affd090759bc57c55083291862523adcc715b6c97d1072a53035718d",
+  "codex_app_edits": false,
+  "scope": "rc7→rc8 diff reviewed: sourceRecords metadata copied from validated originals, help-source selection, timeline aria text and version; retrieval, validation, filters, calendar arithmetic, GPU buffers and selected red marker unchanged. CSS and build unchanged. Model snapshots and native tool calls retained.",
+  "network": "Only USGS count/query via trusted tool on explicit click, CSP restricts connect-src, credentials omitted, redirects rejected. No added service or cloud fallback.",
+  "evidence": "app.js.diff, index.template.html.diff; rc7 source/XYZ regression; rc8 actual import/acquisition/provenance snapshots"
+}

@@ -1,0 +1,80 @@
+{
+  "status": "pass",
+  "elapsed_seconds": 27.31948822294362,
+  "browser": {
+    "checks": [
+      {
+        "name": "import-1-source",
+        "passed": true
+      },
+      {
+        "name": "file-download-bundle",
+        "passed": true
+      },
+      {
+        "name": "import-2-source",
+        "passed": true
+      }
+    ],
+    "network_attempts": [],
+    "errors": [],
+    "status": "pass"
+  },
+  "source_checks": [
+    {
+      "status": "pass",
+      "expected_count": 61,
+      "expected_page_ids": [
+        "us6000mg68",
+        "us6000mg5q",
+        "us6000mg5t",
+        "us7000m3py",
+        "us6000mg58",
+        "us6000mg56",
+        "us6000mg4v",
+        "us6000mg1x",
+        "us6000mg1k",
+        "us6000mg1b",
+        "us6000mg0x",
+        "us6000mg0v",
+        "us7000m3pi",
+        "us6000mg0c",
+        "us7000m3pd",
+        "us7000m3pb",
+        "us7000m3pa",
+        "us6000mfxd",
+        "us6000mfx9",
+        "us6000mgxs"
+      ],
+      "errors": []
+    },
+    {
+      "status": "pass",
+      "expected_count": 61,
+      "expected_page_ids": [
+        "us6000mg68",
+        "us6000mg5q",
+        "us6000mg5t",
+        "us7000m3py",
+        "us6000mg58",
+        "us6000mg56",
+        "us6000mg4v",
+        "us6000mg1x",
+        "us6000mg1k",
+        "us6000mg1b",
+        "us6000mg0x",
+        "us6000mg0v",
+        "us7000m3pi",
+        "us6000mg0c",
+        "us7000m3pd",
+        "us7000m3pb",
+        "us7000m3pa",
+        "us6000mfxd",
+        "us6000mfx9",
+        "us6000mgxs"
+      ],
+      "errors": []
+    }
+  ],
+  "app_sha256": "99945ba9c2e43d7cb77d08a0ab74cb6393c78f2eded8942eab9d6cf3c67d10a8"
+}
